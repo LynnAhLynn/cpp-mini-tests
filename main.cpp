@@ -49,10 +49,8 @@ int main(int argc, char **argv)
 	vector_2d.push_back(vector2);
 
 	cout << "updated vector2d" << endl;	
-	cout << vector_2d.at(0).at(0) << endl;	
-	cout << vector_2d.at(0).at(1) << endl;	
-	cout << vector_2d.at(1).at(0) << endl;	
-	cout << vector_2d.at(1).at(1) << endl;	
+	cout << vector_2d.at(0).at(0) << " " << vector_2d.at(0).at(1) << endl;	
+	cout << vector_2d.at(1).at(0) << " " << vector_2d.at(1).at(1) << endl;
 	
 	vector1.at(0) = 1000;
 	
@@ -62,10 +60,6 @@ int main(int argc, char **argv)
 	cout << vector_2d.at(1).at(0) << endl;	
 	cout << vector_2d.at(1).at(1) << endl;	
 
-	cout << "display again vector 1" << endl;	
-	cout << vector1.at(0) << endl;	
-	cout << vector1.at(1) << endl;	
-	cout << "updated vector 1 has a size of " << vector1.size() << endl;	
-	
+
 	return 0;
 }
